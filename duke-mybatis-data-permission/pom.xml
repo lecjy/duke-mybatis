@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <groupId>com.duke</groupId>
+    <artifactId>duke-mybatis-data-permission</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <modelVersion>4.0.0</modelVersion>
+    <name>duke-mybatis-data-permission</name>
+    <url>https://www.duke.com/</url>
+    <parent>
+        <groupId>com.duke</groupId>
+        <artifactId>duke-server</artifactId>
+        <version>0.0.1-SNAPSHOT</version>
+    </parent>
+    <dependencies>
+        <dependency>
+            <groupId>com.github.jsqlparser</groupId>
+            <artifactId>jsqlparser</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.mybatis.spring.boot</groupId>
+            <artifactId>mybatis-spring-boot-starter</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.duke</groupId>
+            <artifactId>duke-common-base</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>com.duke</groupId>
+                <artifactId>duke-server</artifactId>
+                <version>0.0.1-SNAPSHOT</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+</project>

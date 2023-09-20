@@ -1,0 +1,17 @@
+.idea/
+log/
+logs/
+log
+logs
+*.pid
+*.log
+*.jar
+*.rar
+*.zip
+*.tar
+*.gz
+*.bzip
+*.bzip2
+*.class
+*.iml
+target/
